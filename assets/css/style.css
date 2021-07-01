@@ -14,7 +14,8 @@ body {
 
 /* Headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -24,16 +25,18 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /*  Nav links */
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -66,7 +69,8 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -84,10 +88,11 @@ h1, h2 {
 /* creates level of zoom for the hero image */
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -97,7 +102,7 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    
+
     width: 300px;
     height: 200px;
 
@@ -110,4 +115,55 @@ h1, h2 {
     right: 150px;
 
     position: absolute;
+}
+
+/* nav links for the different truck types and years */
+
+#browse-trucks {
+    padding-top: 30px;
+    height: 600px;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+}
+
+.flex-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flex-box > li {
+    background-color: lightcoral;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.flex-box, a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.flex-box-second {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flex-box-second > li {
+    background-color: lightcoral;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.flex-box-second, a {
+    text-decoration: none;
+    color: #fff;
 }
