@@ -85,20 +85,20 @@ h2 {
     background-size: cover;
 
     /* animates the zoom effect on loading page */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-name: zoom;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
-/* creates level of zoom for the hero image */
+/* creates level of zoom for the hero image and the cover text */
 
-@keyframes hero-zoom {
+@keyframes zoom {
     from {
-        transform: scale(1);
+        transform: scale(0.8);
     }
 
     to {
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
 }
 
@@ -118,6 +118,10 @@ h2 {
 
     bottom: 30px;
     right: 100px;
+
+    animation-name: zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 
     position: absolute;
 }
@@ -206,6 +210,13 @@ a {
 
 #contact a:hover {
     border-bottom: 1px solid #3a3a3a;
+}
+
+img {
+    height: 120px;
+    margin-right: 120px;
+    object-fit: contain;
+    float: right;
 }
 
 /* footer and social links */
