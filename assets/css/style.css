@@ -208,9 +208,27 @@ a {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* footer */
+/* footer and social links */
 
 footer p {
+    float: left;
     padding: 5px 0 5px 5px;
     font-size: 20px;
+}
+
+#social-links {
+    text-align: right;
+}
+
+footer, #social-links {
+    line-height: 50px;
+}
+
+#social-links li {
+    display: inline;
+}
+
+#social-links i {
+    margin: 1%;
+    color: black;
 }
