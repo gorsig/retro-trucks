@@ -62,22 +62,27 @@ h2 {
 /* hero image and cover text */
 
 #hero-outer {
-    height: 600px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
 
     position: relative;
 }
 
-#cover-text,
-#cover-text h2 {
-    color: inherit;
+#cover-text h2, h3 {
+    padding-left: 10px;
+    color: beige;
+}
+
+#cover-text h3 {
+    font-size: smaller;
 }
 
 #hero {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url(../images/old_truck.jpg) no-repeat center center;
+    background-size: cover;
 
     /* animates the zoom effect on loading page */
     animation-name: hero-zoom;
@@ -103,16 +108,16 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 150px;
 
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
 
     background-color: rgba(241, 109, 107, .7);
 
     bottom: 30px;
-    right: 150px;
+    right: 100px;
 
     position: absolute;
 }
@@ -121,9 +126,14 @@ h2 {
 
 #browse-trucks {
     padding-top: 30px;
-    height: 600px;
+    padding-bottom: 30px;
     text-align: center;
+    font-size: x-large;
     font-family: Oswald, sans-serif;
+}
+
+#browse {
+    padding-bottom: 15px;
 }
 
 .flex-box {
@@ -134,18 +144,18 @@ h2 {
 
 .flex-box>li {
     background-color: lightcoral;
-    width: 100px;
+    width: 150px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
-    font-size: 30px;
+    font-size: 50px;
     list-style-type: none;
 }
 
 .flex-box,
 a {
     text-decoration: none;
-    color: #fff;
+    color: beige;
 }
 
 .flex-box-second {
@@ -156,18 +166,18 @@ a {
 
 .flex-box-second>li {
     background-color: lightcoral;
-    width: 100px;
+    width: 150px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
-    font-size: 30px;
+    font-size: 50px;
     list-style-type: none;
 }
 
 .flex-box-second,
 a {
     text-decoration: none;
-    color: #fff;
+    color: beige;
 }
 
 /* contact info on the homepage */
@@ -181,21 +191,26 @@ a {
 #contact p {
     float: left;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 100px;
     font-size: 20px;
     font-family: Oswald, sans-serif;
-    color: inherit;
+    color: beige;
 }
 
 #contact a {
-    margin-left: 50px;
+    margin-left: 120px;
     border: none;
-    color: #fff;
+    color: #3a3a3a;
     display: inline-block;
 }
 
 #contact a:hover {
     border-bottom: 1px solid #3a3a3a;
-    color: lightgreen;
 }
 
+/* footer */
+
+footer p {
+    padding: 5px 0 5px 5px;
+    font-size: 20px;
+}
