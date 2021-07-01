@@ -71,7 +71,7 @@ h2 {
 
 #cover-text,
 #cover-text h2 {
-    color: #fff;
+    color: inherit;
 }
 
 #hero {
@@ -132,7 +132,7 @@ h2 {
     justify-content: center;
 }
 
-.flex-box > li {
+.flex-box>li {
     background-color: lightcoral;
     width: 100px;
     margin: 10px;
@@ -142,7 +142,8 @@ h2 {
     list-style-type: none;
 }
 
-.flex-box, a {
+.flex-box,
+a {
     text-decoration: none;
     color: #fff;
 }
@@ -153,7 +154,7 @@ h2 {
     justify-content: center;
 }
 
-.flex-box-second > li {
+.flex-box-second>li {
     background-color: lightcoral;
     width: 100px;
     margin: 10px;
@@ -163,7 +164,38 @@ h2 {
     list-style-type: none;
 }
 
-.flex-box-second, a {
+.flex-box-second,
+a {
     text-decoration: none;
     color: #fff;
 }
+
+/* contact info on the homepage */
+
+#contact {
+    height: 120px;
+    width: 100%;
+    background-color: lightcoral;
+}
+
+#contact p {
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: Oswald, sans-serif;
+    color: inherit;
+}
+
+#contact a {
+    margin-left: 50px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+}
+
+#contact a:hover {
+    border-bottom: 1px solid #3a3a3a;
+    color: lightgreen;
+}
+
