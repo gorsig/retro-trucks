@@ -142,43 +142,20 @@ h2 {
 
 .flex-box {
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .flex-box>li {
     background-color: lightcoral;
-    width: 150px;
     margin: 10px;
-    text-align: center;
     line-height: 75px;
     font-size: 50px;
     list-style-type: none;
+    flex-basis: 25%;
 }
 
 .flex-box,
-a {
-    text-decoration: none;
-    color: beige;
-}
-
-.flex-box-second {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-.flex-box-second>li {
-    background-color: lightcoral;
-    width: 150px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 50px;
-    list-style-type: none;
-}
-
-.flex-box-second,
 a {
     text-decoration: none;
     color: beige;
@@ -217,6 +194,7 @@ img {
     margin-right: 120px;
     object-fit: contain;
     float: right;
+    position: relative;
 }
 
 /* footer and social links */
