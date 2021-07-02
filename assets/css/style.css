@@ -141,13 +141,15 @@ h2 {
 }
 
 .flex-box {
+    margin-left: 28%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 45%;
 }
 
-.flex-box>li {
-    background-color: lightcoral;
+.flex-box li {
+    background-color: rgba(243, 76, 73, 0.7);
     margin: 10px;
     line-height: 75px;
     font-size: 50px;
