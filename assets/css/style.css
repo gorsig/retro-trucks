@@ -163,6 +163,10 @@ a {
     color: beige;
 }
 
+.flex-box i {
+    color: rgb(5, 5, 4);
+}
+
 /* contact info on the homepage */
 
 #contact {
