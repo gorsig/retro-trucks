@@ -115,12 +115,33 @@ h3 {
     background-color: rgba(60, 60, 60, 0.6);
     bottom: 50px;
     right: 100px;
-
-    animation-name: zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-
     position: absolute;
+}
+
+/* cover text for the 1920 page */
+
+#cover-text-years {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 500px;
+    height: 200px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: rgba(60, 60, 60, 0.6);
+    bottom: 50px;
+    right: 100px;
+    position: absolute;
+}
+
+#cover-text-years h2, h3 {
+    padding-left: 10px;
+    color: beige;
+}
+
+#cover-text-years h3 {
+    padding-top: 5px;
+    font-size: smaller;
 }
 
 /* nav links for the different truck types and years */
