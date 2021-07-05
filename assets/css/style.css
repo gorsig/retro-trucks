@@ -13,7 +13,6 @@ body {
 }
 
 /* Headings and logo */
-
 h1,
 h2 {
     font-family: Oswald, sans-serif;
@@ -29,13 +28,11 @@ h2 {
 }
 
 /*  Nav links */
-
 .navbar {
     overflow: hidden;
     font-family: Oswald, sans-serif;
 }
 
-/* Links inside the navbar */
 .navbar a {
     float: right;
     font-size: 130%;
@@ -46,13 +43,11 @@ h2 {
     letter-spacing: 4px;
 }
 
-/* The dropdown container */
 .dropdown {
     float: right;
     overflow: hidden;
 }
 
-/* Dropdown button */
 .dropdown .dropbtn {
     font-size: 130%;
     letter-spacing: 4px;
@@ -62,19 +57,16 @@ h2 {
     padding: 14px 10px 0;
     background-color: inherit;
     font-family: inherit;
-    /* Important for vertical align on mobile phones */
     margin: 0;
-    /* Important for vertical align on mobile phones */
 }
 
-/* Add a background color to navbar links on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Dropdown content (hidden by default) */
 .dropdown-content {
+    font-size: smaller;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -83,7 +75,6 @@ h2 {
     z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
     float: none;
     color: black;
@@ -92,12 +83,11 @@ h2 {
     text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -107,12 +97,10 @@ h2 {
 }
 
 /* hero image and cover text */
-
 #hero-outer {
     height: 700px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -132,7 +120,6 @@ h3 {
     width: 100%;
     background: url(../images/old_truck.jpg) no-repeat center center;
     background-size: cover;
-
     /* animates the zoom effect on loading page */
     animation-name: zoom;
     animation-duration: 3s;
@@ -140,7 +127,6 @@ h3 {
 }
 
 /* creates level of zoom for the hero image and the cover text */
-
 @keyframes zoom {
     from {
         transform: scale(0.8);
@@ -166,7 +152,6 @@ h3 {
 }
 
 /* cover text for the 1920 page */
-
 #cover-text-years {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -193,7 +178,6 @@ h3 {
 }
 
 /* nav links for the different truck types and years */
-
 #browse-trucks {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -234,7 +218,6 @@ a {
 }
 
 /* contact info on the homepage */
-
 #contact {
     height: 120px;
     width: 100%;
@@ -270,7 +253,6 @@ a {
 }
 
 /* footer and social links */
-
 footer p {
     float: left;
     padding: 10px 0 0 5px;
@@ -296,7 +278,6 @@ footer,
 }
 
 /* cover text for the 1920 page */
-
 #cover-text-years {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -323,7 +304,6 @@ h3 {
 }
 
 /* content for 1920 page */
-
 #model-t-info {
     float: right;
     width: 50%;
@@ -368,7 +348,6 @@ hr {
 }
 
 /* contact form */
-
 #contact-section {
     background: url(../images/old_truck.jpg) no-repeat center center;
     background-size: cover;
@@ -445,7 +424,6 @@ hr {
 }
 
 /* to keep footer at bottom */
-
 #container {
     min-height: 100vh;
     display: flex;
