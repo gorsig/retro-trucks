@@ -213,12 +213,84 @@ a {
     border-bottom: 1px solid #3a3a3a;
 }
 
-img {
+.contact-img {
     height: 120px;
     margin-right: 120px;
     object-fit: contain;
     float: right;
     position: relative;
+}
+
+/* footer and social links */
+
+footer p {
+    float: left;
+    padding: 10px 0 0 5px;
+    font-size: 20px;
+}
+
+#social-links {
+    text-align: right;
+}
+
+footer,
+#social-links {
+    line-height: 50px;
+}
+
+#social-links li {
+    display: inline;
+}
+
+#social-links i {
+    margin: 1%;
+    color: black;
+}
+
+/* cover text for the 1920 page */
+
+#cover-text-years {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 500px;
+    height: 200px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: rgba(60, 60, 60, 0.6);
+    bottom: 50px;
+    right: 100px;
+    position: absolute;
+}
+
+#cover-text-years h2, h3 {
+    padding-left: 10px;
+    color: beige;
+}
+
+#cover-text-years h3 {
+    padding-top: 5px;
+    font-size: smaller;
+}
+
+/* content for 1920 page */
+
+#model-t-info {
+    float: right;
+    width: 50%;
+    margin-top: 3%;
+    margin-right: 12%;
+}
+
+#model-t {
+    margin-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#model-t-info > a {
+    color: blue;
+    padding: 10px;
 }
 
 /* contact form */
@@ -299,33 +371,7 @@ img {
     color: #f16c6b;
 }
 
-/* footer and social links */
-
-footer p {
-    float: left;
-    padding: 10px 0 0 5px;
-    font-size: 20px;
-}
-
-#social-links {
-    text-align: right;
-}
-
-footer,
-#social-links {
-    line-height: 50px;
-}
-
-#social-links li {
-    display: inline;
-}
-
-#social-links i {
-    margin: 1%;
-    color: black;
-}
-
-/* to keep footer on contact page at bottom */
+/* to keep footer at bottom */
 
 #container {
     min-height: 100vh;
