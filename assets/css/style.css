@@ -117,7 +117,7 @@ h3 {
     right: 100px;
 
     animation-name: zoom;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 
     position: absolute;
@@ -207,11 +207,11 @@ img {
     background: url("../images/old_truck.jpg");
     background-size: cover;
     background-position: center;
-    height: 800px;
+    height: 700px;
 }
 
 .contact-form {
-    margin: 100px 10% 0 0;
+    margin: 50px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
@@ -282,7 +282,7 @@ img {
 
 footer p {
     float: left;
-    padding: 5px 0 5px 5px;
+    padding: 10px 0 0 5px;
     font-size: 20px;
 }
 
@@ -302,4 +302,16 @@ footer,
 #social-links i {
     margin: 1%;
     color: black;
+}
+
+/* to keep footer on contact page at bottom */
+
+#container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    margin-top: auto;
 }
