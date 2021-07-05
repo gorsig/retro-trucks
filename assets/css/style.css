@@ -30,29 +30,76 @@ h2 {
 
 /*  Nav links */
 
-#menu {
-    font-size: 110%;
+.navbar {
+    overflow: hidden;
+    font-family: Oswald, sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: right;
+    font-size: 130%;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 14px 10px 0;
+    text-decoration: none;
     letter-spacing: 4px;
 }
 
-#menu,
-#logo {
-    line-height: 75px;
-}
-
-#menu li {
+/* The dropdown container */
+.dropdown {
     float: right;
-    margin-right: 15px;
-    list-style-type: none;
+    overflow: hidden;
 }
 
-#menu a {
-    text-decoration: none;
-    color: inherit;
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 130%;
+    letter-spacing: 4px;
+    border: none;
+    outline: none;
+    color: #3a3a3a;
+    padding: 14px 10px 0;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
 }
 
-#menu a:hover {
+/* Add a background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .active {
@@ -134,7 +181,8 @@ h3 {
     position: absolute;
 }
 
-#cover-text-years h2, h3 {
+#cover-text-years h2,
+h3 {
     padding-left: 10px;
     color: beige;
 }
@@ -263,7 +311,8 @@ footer,
     position: absolute;
 }
 
-#cover-text-years h2, h3 {
+#cover-text-years h2,
+h3 {
     padding-left: 10px;
     color: beige;
 }
@@ -288,7 +337,7 @@ footer,
     padding-bottom: 15px;
 }
 
-#model-t-info > a {
+#model-t-info>a {
     color: blue;
     padding: 10px;
 }
@@ -313,19 +362,18 @@ hr {
     padding-bottom: 15px;
 }
 
-#ford-depo > a {
+#ford-depo>a {
     color: blue;
     padding: 10px;
 }
 
 /* contact form */
 
-.contact-section {
-    clear: left;
-    background: url("../images/old_truck.jpg");
+#contact-section {
+    background: url(../images/old_truck.jpg) no-repeat center center;
     background-size: cover;
-    background-position: center;
     height: 700px;
+    width: 100%;
 }
 
 .contact-form {
