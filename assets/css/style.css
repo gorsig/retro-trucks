@@ -278,7 +278,7 @@ footer,
 #model-t-info {
     float: right;
     width: 50%;
-    margin-top: 3%;
+    padding-top: 50px;
     margin-right: 12%;
 }
 
@@ -289,6 +289,31 @@ footer,
 }
 
 #model-t-info > a {
+    color: blue;
+    padding: 10px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#ford-depo {
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+    margin-left: 12%;
+}
+
+#depo-img {
+    float: right;
+    margin-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#ford-depo > a {
     color: blue;
     padding: 10px;
 }
