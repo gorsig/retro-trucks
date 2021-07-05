@@ -69,7 +69,8 @@ h2 {
     position: relative;
 }
 
-#cover-text h2, h3 {
+#cover-text h2,
+h3 {
     padding-left: 10px;
     color: beige;
 }
@@ -225,6 +226,7 @@ img {
 
 .contact-form h2 {
     color: #fff;
+    margin-bottom: 10px;
 }
 
 .text-input {
@@ -247,6 +249,7 @@ img {
 }
 
 .send-button {
+    float: left;
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -258,6 +261,23 @@ img {
 }
 
 .send-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+.reset-button {
+    float: right;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.reset-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
 }
@@ -274,7 +294,8 @@ footer p {
     text-align: right;
 }
 
-footer, #social-links {
+footer,
+#social-links {
     line-height: 50px;
 }
 
