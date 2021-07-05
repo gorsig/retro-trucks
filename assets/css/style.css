@@ -217,7 +217,7 @@ a {
     color: rgb(5, 5, 4);
 }
 
-/* contact info on the homepage */
+/* contact info */
 #contact {
     height: 120px;
     width: 100%;
@@ -304,43 +304,44 @@ h3 {
 }
 
 /* content for 1920 page */
+hr {
+    border-top: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+}
 .trucks-right {
     float: right;
-    width: 50%;
-    margin-right: 12%;
-    margin-top: 2%;
+    margin-right: 75px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    width: 60%;
 }
 
 .left-truck-img {
-    height: 300px;
-    width: auto;
-    object-fit: contain;
-    margin-left: 120px;
+    height: 200px;
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .trucks-right a {
     color: rgb(102, 102, 112);
 }
 
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
 .trucks-left {
     float: left;
-    width: 50%;
-    margin-left: 12%;
-    margin-top: 2%;
+    margin-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    width: 60%;
 }
 
 .right-truck-img {
-    height: 300px;
-    width: auto;
-    margin-right: 100px;
-    object-fit: contain;
+    height: 200px;
     float: right;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .trucks-left a {
