@@ -29,24 +29,19 @@
         </div>
     </header>
     <!-- contact form -->
-    <section>
+    <section class="contact-section">
         <div class="contact-form">
-            <form action="action_page.php">
-          
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-              <label for="country">Country</label>
-              <input type="text" id="country" name="country" placeholder="Your country..">
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-          
+            <form method="POST" action="https://formdump.codeinstitute.net/">
+                <h2>Contact us!</h2>
+                <label for="fname">First Name</label>
+                <input class="text-input" type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input class="text-input" type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="country">Country</label>
+                <input class="text-input" type="text" id="country" name="country" placeholder="Your country..">
+                <label for="subject">Your question <br></label>
+                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                <input class="send-button" type="submit" value="SEND">
             </form>
           </div>
     </section>
