@@ -168,7 +168,7 @@ h3 {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
     font-family: Oswald, sans-serif;
 }
 
@@ -239,14 +239,16 @@ a {
 }
 
 /* footer and social links */
-footer p {
+#social {
     float: left;
-    padding: 10px 0 0 5px;
-    font-size: 20px;
+    padding-left: 50px;
+    font-size: x-large;
 }
 
 #social-links {
+    float: right;
     text-align: right;
+    padding-right: 50px;
 }
 
 footer,
@@ -259,8 +261,9 @@ footer,
 }
 
 #social-links i {
-    margin: 1%;
     color: black;
+    font-size: xx-large;
+    padding: 5px;
 }
 
 /* cover text for different time periods pages */
