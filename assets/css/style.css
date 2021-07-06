@@ -280,6 +280,11 @@ h3 {
 }
 
 /* content for 1920 page */
+#trucks p {
+    font-size: large;
+    font-weight: bold;
+}
+
 hr {
     border-top: 1px solid black;
     width: 90%;
