@@ -264,7 +264,7 @@ footer,
     padding-right: 10px;
     background-color: rgba(60, 60, 60, 0.6);
     bottom: 50px;
-    right: 80px;
+    right: 50px;
     position: absolute;
     object-fit: contain;
 }
@@ -291,6 +291,7 @@ hr {
     width: 90%;
     margin: 0 auto;
 }
+
 .trucks-right {
     float: right;
     margin-right: 100px;
