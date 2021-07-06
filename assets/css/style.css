@@ -28,6 +28,15 @@ h2 {
 }
 
 /*  Nav links */
+/* keeping the navbar on top when scroll */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+}
+
 .navbar {
     overflow: hidden;
     font-family: Oswald, sans-serif;
@@ -102,6 +111,7 @@ h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
+    margin-top: 65px;
 }
 
 #cover-text h2,
@@ -120,6 +130,7 @@ h3 {
     width: 100%;
     background: url(../images/hero-img.jpg) no-repeat center;
     background-size: cover;
+    margin-top: 65px;
     /* animates the zoom effect on loading page */
     animation-name: zoom;
     animation-duration: 3s;
@@ -152,7 +163,7 @@ h3 {
     object-fit: contain;
 }
 
-/* nav links for the different truck types and years */
+/* nav links on the home page for the different truck types and years */
 #browse-trucks {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -281,6 +292,10 @@ h3 {
 }
 
 /* content for different time periods pages */
+#trucks {
+    margin: 50px;
+}
+
 #trucks p {
     font-size: large;
     font-weight: bold;
@@ -293,18 +308,20 @@ hr {
 }
 
 .trucks-right {
-    float: right;
-    margin-right: 100px;
     padding-top: 40px;
-    padding-bottom: 10px;
-    width: 65%;
+    margin-left: 80px;
+}
+
+.trucks-right h2 p a {
+    float: right;
 }
 
 .left-truck-img {
-    height: 200px;
-    margin-left: 100px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    float: left;
+    width: 400px;
+    height: auto;
+    margin-left: 80px;
+    padding: 20px 100px 20px 0;
 }
 
 .trucks-right a {
@@ -312,35 +329,57 @@ hr {
 }
 
 .trucks-left {
-    float: left;
-    margin-left: 100px;
     padding-top: 40px;
-    padding-bottom: 10px;
-    width: 60%;
+    margin-left: 100px;
+}
+
+.trucks-left h2 p a {
+    float: left;
 }
 
 .right-truck-img {
-    height: 200px;
     float: right;
-    margin-right: 100px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    width: 400px;
+    height: auto;
+    margin-right: 80px;
+    padding: 20px 0 20px 100px;
 }
 
 .trucks-left a {
     color: rgb(102, 102, 112);
 }
 
+/* for smaller screens */
+/* @media screen and (max-width: 1500px) {
+    .left-truck-img {
+        max-width: 30%;
+        height: auto;
+        margin-left: 80px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .right-truck-img {
+        max-width: 30%;
+        height: auto;
+        float: right;
+        margin-right: 100px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+} */
+
 /* contact form */
 #contact-section {
-    background: url(../images/old_truck.jpg) no-repeat center;
+    background: url(../images/hero-img.jpg) no-repeat center center;
     background-size: cover;
+    margin-top: 65px;
     height: 800px;
     width: 100%;
 }
 
 .contact-form {
-    margin: 50px 10% 0 0;
+    margin: 70px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
