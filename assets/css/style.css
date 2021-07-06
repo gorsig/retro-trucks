@@ -118,7 +118,7 @@ h3 {
 #hero {
     height: 700px;
     width: 100%;
-    background: url(../images/old_truck.jpg) no-repeat center;
+    background: url(../images/hero-img.jpg) no-repeat center;
     background-size: cover;
     /* animates the zoom effect on loading page */
     animation-name: zoom;
