@@ -505,6 +505,12 @@ hr {
         height: auto;
     }
 
+    #cover-text-years {
+        width: auto;
+        right: auto;
+        height: auto;
+    }
+
     #hero {
         width: auto;
         height: 75%;
