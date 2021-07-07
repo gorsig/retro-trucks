@@ -61,13 +61,13 @@ This is a place where people can have a interesting, informative and fun time al
 
 # Testing.
   *
-  *
+  * 
 
 ## Validator testing.
   * HTML
-    * djdjd
+    * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
   * CSS
-    * dff
+    * No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
 # Deployment Steps.
   * The site was deployed to GitHub pages. The steps to deploy are as follows:

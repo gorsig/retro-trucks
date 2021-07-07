@@ -68,6 +68,7 @@ nav {
 .header-right {
     float: right;
 }
+
 /* dropdown menu, code snippets from w3schools */
 .dropdown {
     float: left;
@@ -181,6 +182,7 @@ h3 {
 #browse {
     padding-bottom: 15px;
 }
+
 /* flexible box for the different time periods on the homepage, code from w3schools */
 .flex-box {
     display: flex;
@@ -545,7 +547,7 @@ hr {
         margin: 40px 10% 0 10%;
         left: 0;
     }
-    
+
     #contact-section {
         margin-top: 130px;
         height: 665px;
@@ -584,7 +586,6 @@ hr {
         padding-right: 0;
         text-align: center;
     }
-
 }
 
 @media screen and (max-width: 345px) {
