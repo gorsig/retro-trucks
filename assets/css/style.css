@@ -182,11 +182,10 @@ h3 {
 }
 
 .flex-box {
-    margin-left: 28%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 45%;
+    width: 100%;
 }
 
 .flex-box li {
