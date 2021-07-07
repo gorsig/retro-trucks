@@ -438,6 +438,10 @@ hr {
     border: 1px solid #fafafa;
 }
 
+.hr-noborder {
+    border: 2px solid transparent;
+}
+
 /* to keep footer at bottom */
 #container {
     min-height: 100vh;
@@ -472,7 +476,7 @@ hr {
         float: none;
         display: block;
         text-align: left;
-        padding: 0;
+        padding-left: 5px;
     }
 
     .header-right {
@@ -508,7 +512,6 @@ hr {
     .contact-img {
         float: none;
         height: 70px;
-        margin-left: ;
     }
 
     #contact-container {
