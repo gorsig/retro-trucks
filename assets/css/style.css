@@ -450,6 +450,37 @@ hr {
 }
 
 /* for smaller screens */
+@media screen and (max-width: 750px) {
+    .flex-box {
+        width: 100%;
+        margin-left: 0;
+        max-width: none;
+    }
+
+    footer {
+        line-height: 25px;
+    }
+
+    #social {
+        float: left;
+        text-align: center;
+        font-size: 20px;
+        padding-left: 20px;
+        line-height: 100px;
+    }
+
+    #social-links {
+        padding-right: 30px;
+        padding-top: 28px;
+    }
+
+    #heart-coffee {
+        font-size: medium;
+        padding-top: 35px;
+    }
+}
+
+
 @media screen and (max-width: 570px) {
     .header a {
         float: none;
@@ -461,18 +492,58 @@ hr {
     .header-right {
         float: left;
     }
-}
 
-@media screen and (max-width: 750px) {
-    .flex-box {
-        width: 100%;
-        margin-left: 0;
-        max-width: none;
+    #cover-text {
+        width: auto;
+        right: auto;
+        height: auto;
+    }
+
+    #hero {
+        width: auto;
+        height: 75%;
+    }
+
+    #hero-outer {
+        height: 500px;
+        margin-top: 144px;
     }
 }
 
 @media screen and (max-width: 345px) {
     #browse {
+        font-size: medium;
+    }
+
+    #cover-text {
+        font-size: smaller;
+        top: 200px;
+        height: fit-content;
+    }
+
+    #hero {
+        width: auto;
+        height: 75%;
+    }
+
+    #hero-outer {
+        height: 350px;
+        margin-top: 144px;
+    }
+
+    footer {
+        line-height: 25px;
+    }
+
+    #social {
+        float: left;
+        text-align: center;
+        font-size: 15px;
+        padding-left: 78px;
+        line-height: 0;
+    }
+
+    #heart-coffee {
         font-size: medium;
     }
 }
