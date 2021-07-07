@@ -523,6 +523,22 @@ hr {
         margin-top: 144px;
     }
 
+    #trucks {
+        margin: 0;
+    }
+
+    .left-truck-img {
+        margin-left: 0;
+    }
+
+    .trucks-left {
+        margin-left: 0;
+    }
+
+    .right-truck-img {
+        margin-right: 0;
+    }
+
     #contact {
         height: 160px;
     }
