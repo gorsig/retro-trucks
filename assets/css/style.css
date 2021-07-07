@@ -457,32 +457,12 @@ hr {
         max-width: none;
     }
 
-    footer {
-        line-height: 25px;
+    #contact p {
+        margin-left: 30px;
     }
 
-    #social {
-        float: left;
-        text-align: center;
-        font-size: 20px;
-        padding-left: 20px;
-        line-height: 100px;
-    }
-
-    #social-links {
-        padding-right: 30px;
-        padding-top: 28px;
-    }
-
-    #heart-coffee {
-        font-size: medium;
-        padding-top: 35px;
-    }
-
-    #contact-img {
-        margin-right: 10px;
-        
-
+    .contact-img {
+        margin-right: 15px;
     }
 }
 
@@ -496,7 +476,7 @@ hr {
     }
 
     .header-right {
-        float: left;
+        float: right;
     }
 
     #cover-text {
@@ -513,6 +493,26 @@ hr {
     #hero-outer {
         height: 500px;
         margin-top: 144px;
+    }
+
+    #contact {
+        height: 160px;
+    }
+
+    #contact p {
+        margin-left: 0;
+        float: none;
+        margin-top: 0;
+    }
+
+    .contact-img {
+        float: none;
+        height: 70px;
+        margin-left: ;
+    }
+
+    #contact-container {
+        text-align: center;
     }
 }
 
@@ -535,21 +535,5 @@ hr {
     #hero-outer {
         height: 350px;
         margin-top: 144px;
-    }
-
-    footer {
-        line-height: 25px;
-    }
-
-    #social {
-        float: left;
-        text-align: center;
-        font-size: 15px;
-        padding-left: 78px;
-        line-height: 0;
-    }
-
-    #heart-coffee {
-        font-size: medium;
     }
 }
