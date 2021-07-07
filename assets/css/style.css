@@ -1,3 +1,4 @@
+/* fonts from googlefonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
@@ -23,7 +24,7 @@ h2 {
 
 /*  Nav links */
 nav {
-    /* keeping the navbar on top when scroll */
+    /* keeping the navbar on top when scroll, code from w3schools */
     position: fixed;
     top: 0;
     width: 100%;
@@ -67,7 +68,7 @@ nav {
 .header-right {
     float: right;
 }
-
+/* dropdown menu, code snippets from w3schools */
 .dropdown {
     float: left;
     overflow: hidden;
@@ -79,7 +80,7 @@ nav {
     outline: none;
     color: #3a3a3a;
     background-color: inherit;
-    font-family: Oswald,sans-serif;
+    font-family: Oswald, sans-serif;
     margin: 0;
 }
 
@@ -110,7 +111,7 @@ nav {
     display: block;
 }
 
-/* hero image and cover text */
+/* hero image and cover text, some of the code from Love Running project */
 #hero-outer {
     height: 700px;
     width: 100%;
@@ -180,12 +181,13 @@ h3 {
 #browse {
     padding-bottom: 15px;
 }
-
+/* flexible box for the different time periods on the homepage, code from w3schools */
 .flex-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    max-width: 70%;
+    margin-left: 15%;
 }
 
 .flex-box li {
@@ -360,7 +362,7 @@ hr {
     color: rgb(102, 102, 112);
 }
 
-/* contact form */
+/* contact form, some help from the love running project */
 #contact-section {
     background: url(../images/hero-img.jpg) no-repeat center center;
     background-size: cover;
@@ -461,21 +463,16 @@ hr {
     }
 }
 
-/* @media screen and (max-width: 1500px) {
-    .left-truck-img {
-        max-width: 30%;
-        height: auto;
-        margin-left: 80px;
-        padding-top: 20px;
-        padding-bottom: 10px;
+@media screen and (max-width: 750px) {
+    .flex-box {
+        width: 100%;
+        margin-left: 0;
+        max-width: none;
     }
+}
 
-    .right-truck-img {
-        max-width: 30%;
-        height: auto;
-        float: right;
-        margin-right: 100px;
-        padding-top: 20px;
-        padding-bottom: 10px;
+@media screen and (max-width: 345px) {
+    #browse {
+        font-size: medium;
     }
-} */
+}
