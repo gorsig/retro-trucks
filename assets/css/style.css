@@ -35,7 +35,7 @@ nav {
 .header {
     overflow: hidden;
     background-color: #fff;
-    padding: 20px 10px;
+    padding: 10px 10px;
 }
 
 .header a {
@@ -468,16 +468,24 @@ hr {
     .contact-img {
         margin-right: 15px;
     }
+
+    #social {
+        padding-left: 20px;
+        font-size: larger;
+        float: left;
+    }
+
+    #social-links {
+        float: none;
+        padding-right: 20px;
+        font-size: xx-small;
+    }
 }
 
 
 @media screen and (max-width: 570px) {
     .dropdown {
         float: none;
-    }
-
-    .header {
-        overflow: visible;
     }
 
     .header a {
@@ -528,12 +536,47 @@ hr {
 
     .contact-form {
         max-width: 290px;
-        margin: 70px 10% 0 10%;
+        margin: 40px 10% 0 10%;
         left: 0;
     }
     
     #contact-section {
         margin-top: 130px;
+        height: 665px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    #subject {
+        height: 50px;
+    }
+
+    .send-button {
+        padding: 10px 15px 10px 15px;
+    }
+
+    .reset-button {
+        padding: 10px 15px 10px 15px;
+    }
+
+    #contact-section {
+        margin-top: 130px;
+        height: 580px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    #social {
+        padding-left: 0;
+        font-size: larger;
+        float: none;
+        text-align: center;
+    }
+
+    #social-links {
+        padding-right: 0;
+        text-align: center;
     }
 
 }
@@ -557,5 +600,10 @@ hr {
     #hero-outer {
         height: 350px;
         margin-top: 144px;
+    }
+
+    .send-button {
+        padding: 10px 15px 10px 15px;
+        float: none;
     }
 }
