@@ -54,20 +54,26 @@ This is a place where people can have a interesting, informative and fun time al
 ![](assets/readme_media/contact-page.png)
 
 # Features left to implement.
-  *
-  *
+  * hamgurger menu for the navbar
+  * 
   *
   *
 
 # Testing.
-  *
-  * 
+  * The site is funtioning as intented and in all screen sizes.
+  * The navigation of the site is easy to follow and the users finds the flow easy to follow.
+  * Tested in chrome and edges dev tools.
+  * multiple users have test run the site for me with great feedback.
 
 ## Validator testing.
   * HTML
     * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
   * CSS
     * No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+
+# Bugs
+  * Nothing speciel more than usual design and style issues that i resolved with help from others in slack and stackoverflow etc.
+  * hamgurgermenu did i not succeed in making and the time ran out before deployment so will be in features left to implement.
 
 # Deployment Steps.
   * The site was deployed to GitHub pages. The steps to deploy are as follows:
