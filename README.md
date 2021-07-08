@@ -93,12 +93,15 @@ The live link can be found here - https://gorsig.github.io/retro-trucks/index.ht
   * The navbar stay on top when scroll was taken from [w3schools](https://www.w3schools.com/)
   * Some of the code for hero img and animation and some css code was implemented from the Love Running Project  
     from [CodeInstitute](https://codeinstitute.net/)
+  * Text in "cover texts" over the hero images are mostly citations from [Volvo](https://www.volvotrucks.com/en-en/about-us/history)
 
 ## Media
-  * The photos for the homepage was taken from variouse places...
+  * The photos for the homepage was taken from variouse places...mostly free to use, if not all then since it is not for commercial use it is ok to use those images and texts i have been told.
     * [Pinterest](https://www.pinterest.com)
     * [Pexels](https://www.pexels.com)
     * [Pixabay](https://pixabay.com/)
+    * [Volvo](https://www.volvotrucks.com/en-en/about-us/history)
+    * [Mack](https://www.macktrucks.com/about-mack/museum/mack-history)
 
 ## Other help.
   * My mentor was a big help and gave me a lot of good advice.
