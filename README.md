@@ -55,9 +55,9 @@ This is a place where people can have a interesting, informative and fun time al
 
 # Features left to implement.
   * hamgurger menu for the navbar
-  * 
-  *
-  *
+  * More pages of the history of trucks
+  * Newsletter
+  * For members section
 
 # Testing.
   * The site is funtioning as intented and in all screen sizes.
