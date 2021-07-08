@@ -630,3 +630,17 @@ hr {
         float: none;
     }
 }
+
+/* 404 page style */
+#error {
+    font-family: Oswald, sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+    background-color: brown;
+}
+
+#error a {
+    background-color: crimson;
+    color: black;
+}
