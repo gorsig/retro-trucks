@@ -482,6 +482,36 @@ hr {
         padding-right: 20px;
         font-size: xx-small;
     }
+
+    .truck-imgs {
+        text-align: center;
+    }
+
+    .left-truck-img {
+        margin-left: 0;
+        padding: 0;
+        float: none;
+        width: 300px;
+    }
+
+    .trucks-left {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .trucks-right {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-truck-img {
+        margin-right: 0;
+        padding: 0;
+        float: none;
+        width: 300px;
+    }
 }
 
 
@@ -525,18 +555,7 @@ hr {
 
     #trucks {
         margin: 0;
-    }
-
-    .left-truck-img {
-        margin-left: 0;
-    }
-
-    .trucks-left {
-        margin-left: 0;
-    }
-
-    .right-truck-img {
-        margin-right: 0;
+        text-align: center;
     }
 
     #contact {
@@ -602,6 +621,13 @@ hr {
         padding-right: 0;
         text-align: center;
     }
+
+    #cover-text-years {
+        width: auto;
+        right: auto;
+        height: auto;
+        font-size: small;
+    }
 }
 
 @media screen and (max-width: 345px) {
@@ -615,9 +641,16 @@ hr {
         height: fit-content;
     }
 
+    #cover-text-years {
+        width: auto;
+        right: auto;
+        height: auto;
+        font-size: x-small;
+    }
+
     #hero {
         width: auto;
-        height: 75%;
+        height: 65%;
     }
 
     #hero-outer {
@@ -628,6 +661,14 @@ hr {
     .send-button {
         padding: 10px 15px 10px 15px;
         float: none;
+    }
+
+    .right-truck-img {
+        width: 200px;
+    }
+
+    .left-truck-img {
+        width: 200px;
     }
 }
 
